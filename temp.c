@@ -33,7 +33,7 @@ struct Node *first_last_create(int data)
     }
     else
     {
-       sakdlsads struct Node *temp = head;
+        struct Node *temp = head;
         while (temp->next != NULL)
         {
             temp = temp->next;
