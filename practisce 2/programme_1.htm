@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>MY website.com</title>
+</head>
+
+<body>
+    <div class="first">
+        hello coder 1
+        <div>this is second class</div>
+    </div>
+    <script>
+        let first = document.getElementsByTagName("div")[0]; // Select the first <div>
+
+        if (first) { // Ensure the element exists
+            first.insertAdjacentHTML('', '<p>Hello insert</p>');
+        }
+
+    </script>
+</body>
+
+</html>
